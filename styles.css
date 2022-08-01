@@ -42,6 +42,10 @@ input {
     box-sizing: border-box;
 }
 
+#input-el:focus {
+    outline: 1px solid hsl(255, 100%, 80%);
+}
+
 #convert-btn {
     background-color: white;
     border: none;
@@ -88,4 +92,5 @@ h2 {
 
 p {
     margin: 10px 0;
+    text-align: center;
 }
